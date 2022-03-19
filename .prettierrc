@@ -1,0 +1,9 @@
+{
+  "semi": false,
+  "singleQuote": false,
+  "printWidth": 85,
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  }
+}
