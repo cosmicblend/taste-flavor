@@ -16,7 +16,6 @@ import useIsomorphicLayoutEffect from "hooks/useIsomorphicLayoutEffect"
 import Head from "next/head"
 import { PropsWithChildren, ReactNode, useRef, useState } from "react"
 import GuildLogo from "../GuildLogo"
-//import Footer from "./components/Footer"
 import Header from "./components/Header"
 
 type Props = {
@@ -59,50 +58,6 @@ const Layout = ({
 
   const guildLogoSize = useBreakpointValue({ base: 48, lg: 56 })
   const guildLogoIconSize = useBreakpointValue({ base: 20, lg: 28 })
-
-  // const skipToVideo = () => {
-  //   router.push("/video")
-  // }
-
-  // useEffect(() => {}, [])
-
-  // const TypingAnimation = ({ content = "", speed = 1000, fontFamily }) => {
-  //   const [displayedContent, setDisplayedContent] = useState("")
-
-  //   const [index, setIndex] = useState(0)
-
-  //   useEffect(() => {
-  //     /*Create a new setInterval and store its id*/
-  //     const animKey = setInterval(() => {
-  //       // eslint-disable-next-line @typescript-eslint/no-shadow
-  //       setIndex((index) => {
-  //         /*This setState function will set the index
-  //       to index+1 if there is more content otherwise
-  //       it will destory this animation*/
-
-  //         if (index >= content.length - 1) {
-  //           clearInterval(animKey)
-  //           return index
-  //         }
-  //         return index + 1
-  //       })
-  //       return
-  //     }, speed)
-  //   }, [content, speed])
-
-  //   useEffect(() => {
-  //     // eslint-disable-next-line @typescript-eslint/no-shadow
-  //     setDisplayedContent((displayedContent) => displayedContent + content[index])
-  //   }, [content, index])
-
-  //   return (
-  //     <>
-  //       <Text fontFamily={fontFamily || "display"} className="type-writer">
-  //         {displayedContent}
-  //       </Text>
-  //     </>
-  //   )
-  // }
 
   return (
     <Box>
@@ -201,24 +156,6 @@ const Layout = ({
                   </Link>
                 </Flex>
 
-                {/* <Link
-                  href={`https://www.treasure.lol/`}
-                  target={"_blank"}
-                  prefetch={false}
-                  _hover={{ textDecor: "none" }}
-                >
-                  <AccountCard>
-                    <AccountButton
-                      // isLoading={!triedEager}
-                      // onClick={openWalletSelectorModal}
-                      width={316}
-                      height={74}
-                      fontSize="32"
-                    >
-                      get A dragontail
-                    </AccountButton>
-                  </AccountCard>
-                </Link> */}
               </HStack>
               {action}
             </HStack>
@@ -291,7 +228,6 @@ const Layout = ({
             />
           </Link>
         </Center>
-        {/* <Footer /> */}
       </Box>
     </Box>
   )
