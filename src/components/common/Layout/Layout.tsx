@@ -291,7 +291,7 @@ const Layout = ({
             />
           </Link>
         </Center>
-        //<Footer />
+        // dumbass, footer here
       </Box>
     </Box>
   )
