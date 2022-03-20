@@ -122,16 +122,6 @@ const Layout = ({
                 >
                   {title}
                 </Heading>
-                <Text
-                  as="h2"
-                  fontSize={40}
-                  fontFamily="PressStart2P"
-                  color={"#FFF3BF"}
-                  wordBreak={"break-word"}
-                  textAlign="center"
-                >
-                  And Taste The Spice!
-                </Text>
 
                 <Flex>
                   <Container width={350} margingTop={-32}>
@@ -203,15 +193,13 @@ const Layout = ({
             marginLeft={4}
           >
             <br />
-            Juicy yields and impeccable taste
+            Flavor is the Treasure guild serving up the spice — join us to learn about $MAGIC and gaming NFTs, max out your $MAGIC yields, swap alpha, and much more...
             <br />
             <br />
-            We are a Treasure guild serving up the spice. Join us to max out your
-            $MAGIC yields, stake your Treasures or Legions for bonuses, and more!
+            $MAGIC started off as writing on tile... just another project in the sea of Loot derivatives. Now, it’s a thriving ecosystem of composable metaverses integrating NFT & DeFi elements, built on one of the leading Ethereum layer 2 chains, Arbitrum.
             <br />
             <br />
-            Treasure is an ecosystem built on cooperation. Group coordination leads
-            to higher rewards for all!
+            Life moves quickly in Web3. Join our community and you’ll be cooking in no time — with only the best recipes in Bridgeworld!
           </Text>
         </Center>
         <Center margin={8}>
