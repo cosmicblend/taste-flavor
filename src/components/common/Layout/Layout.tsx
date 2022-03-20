@@ -17,6 +17,7 @@ import Head from "next/head"
 import { PropsWithChildren, ReactNode, useRef, useState } from "react"
 import GuildLogo from "../GuildLogo"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 type Props = {
   imageUrl?: string
@@ -228,6 +229,7 @@ const Layout = ({
             />
           </Link>
         </Center>
+        <Footer />
       </Box>
     </Box>
   )
