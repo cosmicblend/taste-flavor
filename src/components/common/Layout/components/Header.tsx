@@ -42,7 +42,6 @@ const Header = (): JSX.Element => {
         </NextLink>
       )}
       <HStack spacing="4" ml="auto" marginTop="2">
-        <Account />
         {/* <InfoMenu /> */}
       </HStack>
     </Flex>
