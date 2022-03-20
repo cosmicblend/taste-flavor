@@ -16,6 +16,7 @@ import useIsomorphicLayoutEffect from "hooks/useIsomorphicLayoutEffect"
 import Head from "next/head"
 import { PropsWithChildren, ReactNode, useRef, useState } from "react"
 import GuildLogo from "../GuildLogo"
+import Header from "./components/Header"
 
 type Props = {
   imageUrl?: string
