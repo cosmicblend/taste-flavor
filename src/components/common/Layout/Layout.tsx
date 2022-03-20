@@ -16,7 +16,7 @@ import useIsomorphicLayoutEffect from "hooks/useIsomorphicLayoutEffect"
 import Head from "next/head"
 import { PropsWithChildren, ReactNode, useRef, useState } from "react"
 import GuildLogo from "../GuildLogo"
-import Footer from "./components/Footer"
+//import Footer from "./components/Footer"
 import Header from "./components/Header"
 
 type Props = {
@@ -291,7 +291,7 @@ const Layout = ({
             />
           </Link>
         </Center>
-        <Footer />
+        //<Footer />
       </Box>
     </Box>
   )
