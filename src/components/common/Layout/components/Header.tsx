@@ -4,7 +4,7 @@ import { useThemeContext } from "components/[guild]/ThemeContext"
 import { useRouter } from "next/dist/client/router"
 import NextLink from "next/link"
 import React from "react"
-import Account from "./Account"
+//import Account from "./Account"
 
 const Header = (): JSX.Element => {
   const router: any = useRouter()
